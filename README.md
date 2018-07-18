@@ -6,7 +6,7 @@ https://iris-classifier.000webhostapp.com/
 
 This webapp classifies Iris plants into subtypes using a decision tree trained with IBM Watson Machine Learning. 
 
-Requests are sent through a HTTP Web Action to a python Cloud Function (Apache OpenWisk), which processes the inputs, obtain a output class using a live IBM Watson Machine Learning model and retuns the results in JSON format.
+Requests are sent through a HTTP Web Action to a python Cloud Function (Apache OpenWisk), which processes the inputs, obtains a output class using a live IBM Watson Machine Learning model and retuns the results in JSON format.
 
 The ML model was trained using both discrete and numerical data from R.A Fisher's Iris Plants Database. The model takes infomation of the size of the plant's sepals and petals in centimeters as input. Then, it returns a string with the class of the plant.
 
@@ -28,7 +28,7 @@ Numerical values in decimal(float/double) format (typically ranging from 0.1 to 
 
 ## Output
 
-Possible string values
+Possible string values:
 - Iris-setosa
 - Iris-versicolor
 - Iris-virginica
