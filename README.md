@@ -20,7 +20,7 @@ Four possible values:
 
 ## Numerical Input Format
 
-Numerical values in decimal(float/double) format
+Numerical values in decimal(float/double) format (typically ranging from 0.1 to 8.0)
 - Ex:
 	- 3.5
 	- 3.0
