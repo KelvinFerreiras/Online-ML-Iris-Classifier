@@ -8,7 +8,7 @@ This webapp classifies Iris plants into subtypes using a decision tree trained w
 
 Requests are sent through a HTTP Web Action to a python Cloud Function (Apache OpenWisk), which processes the inputs, obtain a output class using a live IBM Watson Machine Learning model and retuns the results in JSON format.
 
-The ML model was trained using both discrete and numerical data from R.A Fisher's Iris Plants Database. The model takes infomation of the size of the plant's sepals and petals as input. Then, it returns a string with the class of the plant.
+The ML model was trained using both discrete and numerical data from R.A Fisher's Iris Plants Database. The model takes infomation of the size of the plant's sepals and petals in centimeters as input. Then, it returns a string with the class of the plant.
 
 ## Discrete Input Format
 
