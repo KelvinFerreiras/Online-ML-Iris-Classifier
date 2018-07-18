@@ -13,25 +13,25 @@ The ML model was trained using both discrete and numerical data from R.A Fisher'
 ## Discrete Input Format
 
 Four possible values:
-	- S for small
-	- MS for medium small
-	- ML for medium large
-	- L for large
+- S for small
+- MS for medium small
+- ML for medium large
+- L for large
 
 ## Numerical Input Format
 
 Numerical values in decimal(float/double) format
-	- Ex:
-		- 3.5
-		- 3.0
-		- 3
+- Ex:
+	- 3.5
+	- 3.0
+	- 3
 
 ## Output
 
 Possible string values
-	- Iris-setosa
-	- Iris-versicolor
-	- Iris-virginica
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
 
 ## Link
 
