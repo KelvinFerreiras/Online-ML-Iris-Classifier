@@ -1,0 +1,30 @@
+
+h1{
+    text-align: center;
+    background: #5BBFCC;
+    color: white;
+
+
+}
+
+img{
+    width:25%;
+    display: 
+    block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: -5%;
+
+}
+
+p.ghText{
+        text-align: center;
+        color:black;
+}
+
+.result{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}

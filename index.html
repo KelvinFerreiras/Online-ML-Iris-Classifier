@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet">
+
+
+<head>
+	<title>Iris Classifier Using Decision Tree Learning</title>
+	 <link rel="icon" href="https://www.publicdomainpictures.net/pictures/30000/velka/purple-iris.jpg" type="image/png">
+
+</head>
+<body>
+
+
+
+	<div class="container " id="mainc">
+		 
+	    
+	    
+		<div class="result bg-info" id="result">
+		    <h1 class="bg-gray-500">Iris Classifier Using Decision Tree Learning- Discrete</h1>
+		    <p class"resultTextC" id="resultText">Enter discrete values below (S, MS, ML or L)</p>
+		</div>
+			
+			
+		<div class=".container bg-light">
+
+	        <input id= "sepal_lenght"type="text" class="form-control " placeholder="Sepal Lenght" aria-label="Sepal Lenght" aria-describedby="basic-addon2"> 
+
+	        <input id= "sepal_width"type="text" class="form-control " placeholder="Sepal Width" aria-label="Sepal Width" aria-describedby="basic-addon2"> 
+
+	        <input id= "petal_lenght"type="text" class="form-control " placeholder="Petal Lenght" aria-label="Petal Lenght" aria-describedby="basic-addon2"> 
+
+	        <input id= "petal_width"type="text" class="form-control " placeholder="Petal Width" aria-label="Petal Width" aria-describedby="basic-addon2"> 
+
+	        <div class="input-group-append">
+	        	<button class="btn btn-outline-secondary bg-info text-dark" type="button" onclick="getResult();">Find Class</button>
+	        	<button class="btn btn-outline-secondary bg-info text-dark" type="button" onclick="window.location.href='numerical-classifier.html'">Numerical Classifier</button>
+	        	
+	        </div>
+	        
+        </div>
+        
+        <a href="https://github.com/KelvinFerreiras/Online-ML-Iris-Classifier" target="_blank">
+            <img src="images/gh-logo.png" alt="Github Logo">
+            <p class="ghText">Code and Sources</p>
+
+        </a>
+
+
+	</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script src="scripts/wml.js"></script>
+
+</body>
+
+
+
+
+</html>
